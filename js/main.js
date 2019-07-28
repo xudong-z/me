@@ -5,7 +5,7 @@
 
 
 	var isMobile = {
-		Android: function() {
+			Android: function() {
 			return navigator.userAgent.match(/Android/i);
 		},
 			BlackBerry: function() {
