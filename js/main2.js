@@ -1,3 +1,3 @@
-function test {
-    console.log('test');
+window.onload() = function{
+    alert('test');
 }
