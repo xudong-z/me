@@ -249,6 +249,9 @@ figure {
         background-size: cover;
         background-position: bottom center;
         min-height: 400px;
+        display: block;
+        opacity: 0.1;
+        z-index: -1;
         position: relative; }
     #colorlib-hero .flexslider .flex-control-nav {
       bottom: 20px;
@@ -272,7 +275,7 @@ figure {
           cursor: pointer; }
           #colorlib-hero .flexslider .flex-control-nav li a.flex-active {
             cursor: pointer;
-            background: transparent;
+            background: #2c98f0;
             border: 2px solid #2c98f0; }
     #colorlib-hero .flexslider .flex-direction-nav {
       display: none; }
@@ -363,7 +366,7 @@ body.offcanvas {
     transform: translateX(300px); }
 
 .colorlib-narrow-content {
-  padding: 0 2.5em; }
+  padding: 0 1.5em; }
   @media screen and (max-width: 768px) {
     .colorlib-narrow-content {
       padding: 0; } }
@@ -380,8 +383,8 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 4em;
-  padding-bottom: 9em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   clear: both;
   width: 100%;
   display: block; }
@@ -394,8 +397,8 @@ body.offcanvas {
     .colorlib-about,
     .colorlib-services,
     .colorlib-contact {
-      padding-top: 5em;
-      padding-bottom: 8em; } }
+      padding-top: 0em;
+      padding-bottom: 0em; } }
 
 .author-img {
   background-size: cover;
@@ -405,7 +408,7 @@ body.offcanvas {
 
 .colorlib-heading {
   font-size: 18px;
-  margin-bottom: 4em;
+  margin-bottom: 1em;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -419,7 +422,7 @@ body.offcanvas {
 
 .heading-meta {
   margin-bottom: 15px;
-  display: block;
+  display: none;
   font-size: 10px;
   text-transform: uppercase;
   color: #999999;
@@ -616,6 +619,7 @@ body.offcanvas {
 .services {
   margin-bottom: 30px;
   padding: 1.5em;
+  height: 200px;
   -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   -moz-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
@@ -1430,13 +1434,15 @@ body.offcanvas {
 
 
 .colorlib-work .project {
-  width:360px;
-  height:270px;
+  width:400px;
+  height:320px;
   position: relative;
+  margin: 15px;
 }
 
 
 .colorlib-contact .float-icon .colorlib-icon {
+  margin: 15px;
   float: left;
   position: relative;
   margin: 0 2px;
