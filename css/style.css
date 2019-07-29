@@ -1427,3 +1427,21 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+
+.colorlib-work .project {
+  width:360px;
+  height:270px;
+  position: relative;
+}
+
+
+.colorlib-contact .float-icon .colorlib-icon {
+  float: left;
+  position: relative;
+  margin: 0 2px;
+}
+
+.colorlib-contact .float-icon .colorlib-icon a{
+  height:100px;
+}
