@@ -598,7 +598,7 @@ body.offcanvas {
   margin-left: -9px; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p + p {
-  margin-top: 15px; }
+  margin-top:15px; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
   font-size: 20px;
@@ -1423,6 +1423,12 @@ body.offcanvas {
     .row-bottom-padded-sm {
       padding-bottom: 1em; } }
 
+
+#project-gallery-data-button {
+  padding: 20px;
+}
+
+
 .row-pt-md {
   padding-top: 3em; }
 
@@ -1434,12 +1440,17 @@ body.offcanvas {
 
 
 .colorlib-work .project {
-  width:400px;
+  width:380px;
   height:320px;
   position: relative;
   margin: 15px;
 }
 
+#project-gallery-data .icon {
+  position: relative;
+  float: right;
+  margin: 20px
+}
 
 .colorlib-contact .float-icon .colorlib-icon {
   margin: 15px;
